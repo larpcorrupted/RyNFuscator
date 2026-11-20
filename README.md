@@ -33,6 +33,12 @@
 
 It applies **AST-based transformations** to make Lua source code harder to read, analyze, and reverse engineer—combining native Rust speed with passes like **constant encryption**, **control-flow flattening**, and **VM/bytecode protection**.
 
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient" />
+
+</div>
+
 ---
 
 ## Features
