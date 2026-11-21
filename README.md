@@ -32,6 +32,8 @@
 **RyNFuscator** is a Lua obfuscator built in **Rust**.
 This is RyNfuscator v1. Not the current used in luauth.
 
+Btw it only does print(1) and basic lua not whole luau code :(
+
 It applies **AST-based transformations** to make Lua source code harder to read, analyze, and reverse engineer—combining native Rust speed with passes like **constant encryption**, **control-flow flattening**, and **VM/bytecode protection**.
 
 
