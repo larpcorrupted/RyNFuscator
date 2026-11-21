@@ -11,13 +11,11 @@
 <a href="https://github.com/larpcorrupted/RyNFuscator/releases">
   <img src="https://img.shields.io/badge/DOWNLOAD-LATEST-0F766E?style=for-the-badge&logo=rust&logoColor=white" alt="Download Release" />
 </a>
-<a href="https://github.com/larpcorrupted/RyNFuscator/actions/workflows/ci.yml">
-  <img src="https://img.shields.io/github/actions/workflow/status/larpcorrupted/RyNFuscator/ci.yml?branch=main&style=for-the-badge&label=Build" alt="Build Status" />
-</a>
+
 <a href="https://github.com/larpcorrupted/RyNFuscator/stargazers">
   <img src="https://img.shields.io/github/stars/larpcorrupted/RyNFuscator?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" />
 </a>
-<a href="https://discord.gg/yourinvite">
+<a href="https://discord.gg/A8F3vVYPtr">
   <img src="https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord server" />
 </a>
 
