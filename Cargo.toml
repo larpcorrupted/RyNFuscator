@@ -1,0 +1,27 @@
+[package]
+name = "ryn"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+description = "RyNFuscator — a small, readable Lua source protector"
+license = "MIT"
+repository = "https://github.com/rynfuscator/ryn"
+keywords = ["lua", "obfuscator", "luau", "roblox"]
+categories = ["command-line-utilities", "development-tools"]
+
+[[bin]]
+name = "ryn"
+path = "src/main.rs"
+
+[lib]
+name = "ryn"
+path = "src/lib.rs"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"

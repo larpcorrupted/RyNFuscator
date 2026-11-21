@@ -11,11 +11,13 @@
 <a href="https://github.com/larpcorrupted/RyNFuscator/releases">
   <img src="https://img.shields.io/badge/DOWNLOAD-LATEST-0F766E?style=for-the-badge&logo=rust&logoColor=white" alt="Download Release" />
 </a>
-
+<a href="https://github.com/larpcorrupted/RyNFuscator/actions/workflows/ci.yml">
+  <img src="https://img.shields.io/github/actions/workflow/status/larpcorrupted/RyNFuscator/ci.yml?branch=main&style=for-the-badge&label=Build" alt="Build Status" />
+</a>
 <a href="https://github.com/larpcorrupted/RyNFuscator/stargazers">
   <img src="https://img.shields.io/github/stars/larpcorrupted/RyNFuscator?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" />
 </a>
-<a href="https://discord.gg/A8F3vVYPtr">
+<a href="https://discord.gg/yourinvite">
   <img src="https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord server" />
 </a>
 
@@ -29,8 +31,6 @@
 
 **RyNFuscator** is a Lua obfuscator built in **Rust**.
 This is RyNfuscator v1. Not the current used in luauth.
-
-Btw it only does print(1) and basic lua not whole luau code :(
 
 It applies **AST-based transformations** to make Lua source code harder to read, analyze, and reverse engineer—combining native Rust speed with passes like **constant encryption**, **control-flow flattening**, and **VM/bytecode protection**.
 
@@ -59,6 +59,7 @@ It applies **AST-based transformations** to make Lua source code harder to read,
 git clone [https://github.com/larpcorrupted/RyNFuscator.git](https://github.com/larpcorrupted/RyNFuscator.git)
 cd RyNFuscator
 cargo build --release
+.\target\release\ryn.exe main.lua
 ```
 
 <div align="center">
